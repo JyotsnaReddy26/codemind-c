@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class ArthematicOperations
+{
+                   public static void main(String args[])
+{
+                  int a,b;
+         Scanner jyo=new Scanner(System.in);
+       System.out.println("Enter any two numbers");
+         a=jyo.nextInt();
+         b=jyo.nextInt();
+          int add=a+b;
+          int sub=a-b;
+         int mul=a*b;
+         int div=a/b;
+    System.out.println("Sum ="+add);
+     System.out.println("Sub ="+sub);
+    System.out.println("prod ="+mul);
+    System.out.println("div ="+div);
+     jyo.close();
+
+
+}
+}
