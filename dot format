@@ -1,0 +1,8 @@
+a=10
+b=5
+c=a+b
+d=a-b
+e=a*b
+print("Add 0f {} and {} is {}".format(a,b,c))
+print("sub of{} and {} is {}".format(a,b,d))
+print("prod of {} and {} is {}".format(a,b,e))
