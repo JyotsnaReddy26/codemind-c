@@ -1,0 +1,17 @@
+import java.util.Scanner;
+ public class Area
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        float radius;
+        float pi=(float)3.14;
+        radius=sc.nextFloat();
+    double area,perimeter;
+        area=(float)pi*radius*radius;
+        perimeter=(float)2*pi*radius;
+        System.out.printf("%.2f ",area);
+        System.out.printf("%.2f ",perimeter);
+        sc.close();
+    }
+}
