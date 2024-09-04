@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int side;
+    scanf("%d",&side);
+    int area,volume;
+    area=6*(side*side);
+    volume=side*side*side;
+    printf("Surface area = %d and Volume = %d",area,volume);
+}
